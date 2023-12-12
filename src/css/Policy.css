@@ -1,0 +1,74 @@
+.policy {
+  width: 84%;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+.policy_contai {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.policy_left {
+  width: 73%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 1.6;
+}
+.policy_left h1,
+h2,
+h3 {
+  padding: 0.5% 0;
+}
+
+.policy_left p {
+  padding: 1% 0;
+  font-size: 16px;
+}
+.policy_left ul {
+  padding-left: 3%;
+}
+.policy_right {
+  width: 25%;
+}
+.policy_right_list {
+  border-radius: 10px;
+  padding: 7%;
+  margin-top: 4%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.policy_list {
+  display: flex;
+  padding: 5% 0;
+  align-items: center;
+}
+.policy_list img {
+  width: 20%;
+  padding-right: 2%;
+}
+.policy_list h2 {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.policy_right_facebook {
+  margin-top: 10%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.policy_right_facebook h3 {
+  background-color: #63a3f7;
+  padding: 15px;
+  border-radius: 10px 10px 0px 0;
+}
+.policy_right_facebook_iframe {
+  width: 100%;
+  display: flex;
+}
+.policy_click{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}

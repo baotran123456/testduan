@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.title {
+    max-width: 84%;
+    margin: 0px auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.title_header {
+    background-color: #63A3F7;
+    border-radius: 20px 20px 0px 0px;
+    color: #fff;
+}
+
+.title_header h2 {
+    padding: 15px 0px 15px 50px;
+}
+.title_list{
+    width: 100%;
+    padding: 2% 0;
+    
+}
+.title_list_view{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_list_cottom {
+    max-width: 32%;
+    background-color: #F9F9F9;
+    text-align: left;
+    margin-bottom: 2%;
+    
+}
+
+
+.title_list_cottom img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
+    
+}
+.title_list_cottom_img{
+    
+    overflow: hidden;
+}
+.title_list_cottom:hover img{
+    
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.1);
+}
+.title_list_cottom--content{
+    padding: 5%;
+    position: relative;
+    height: 300px;
+}
+.title_list_cottom--content p{
+    line-height: 1.5;
+    color: rgb(86, 86, 86);
+    padding: 5% 0;
+}
+
+.title_list_cottom_button {
+    width: 30%;
+    background-color: #F4534E;
+    border: 0ch;
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    padding: 4%;
+    text-decoration: none;
+}
+
+.hashtag {
+    list-style-type: none;
+    background-color: #F6F6F6;
+}
+
+.hashtag_header {
+    max-width: 84%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.hashtag_header--list {
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+
+}
+.hashtag_header--list--img{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+.hagtag_img {
+    width: 15%;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+}
+.hagtag_img img{
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.hagtag_img:hover img {
+    transform: scale(1.1);
+}
+
+.hashtag_header--list p {
+    padding-top: 1%;
+    font-size: 13px;
+}
+
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .button-24:hover,
+  .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  .button-24:active {
+    opacity: .5;
+  }
+
+/* .footer {
+    background: repeat fixed 100% url("https://img5.thuthuatphanmem.vn/uploads/2021/09/19/anh-nen-toi-4k_100313800.jpg");
+    text-align: center;
+}
+
+.footer_container {
+    max-width: 83%;
+    margin: 0px auto;
+    overflow: hidden;
+    display: block;
+
+}
+
+.footer_container img {
+    width: 8%;
+    margin: 3% 0% 2% 0%;
+}
+
+.footer_container input {
+    width: 5%;
+    margin-bottom: 5%;
+}
+
+.footer_container--page {
+    margin-bottom: 5%;
+    display: inline-block;
+
+}
+
+.footer_container--page--page {
+    width: 27%;
+    float: left;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.footer_container--page--page iframe {
+    width: 80%;
+    border: none;
+    overflow: hidden ;
+    margin-top:15%;
+}
+
+.footer_container--page--company {
+    width: 35%;
+    float: left;
+}
+
+.footer_container--page--we {
+    width: 12%;
+    float: left;
+    text-align: left;
+    margin-left: 4%;
+}
+.we{
+    margin-top: 20%;
+}
+.we p{
+    cursor: pointer;
+}
+.policy{
+    margin-top: 15%;
+}
+.policy{
+    cursor: pointer;
+}
+
+.footer_container--page--policy {
+    width: 15%;
+    float: left;
+    text-align: left;
+    margin-left: 4%;
+
+}
+
+.footer_container--page h3 {
+    text-align: left;
+    color: white;
+}
+
+.footer_container--page p {
+    color: white;
+    font-size: 13px;
+    margin-top: 7%;
+    display: flex;
+    text-align: left;
+    
+} */

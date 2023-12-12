@@ -1,0 +1,524 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+
+/* --------------------Trang Ca Nhan --------------- */
+.fersonal {
+  background-color: #f6f6f6;
+}
+
+.fersonal_container {
+  max-width: 85%;
+  margin: 0px auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+
+/* ------------------- Phần trái -------------------- */
+.fersonal_container__hover {
+  display: none;
+}
+
+.fersonal_container__left {
+  width: 23%;
+}
+
+.fersonal_container__left__userName {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fersonal_container_left__info {
+  width: 80%;
+  padding: 10% 0;
+}
+
+.fersonal_container_left__info h3 {
+  padding-bottom: 5%;
+}
+
+.fersonal_container__hover__info__tabs {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 3px;
+}
+
+.fersonal_container__left__info__tabs {
+  cursor: pointer;
+  display: flex;
+  text-align: left;
+  font-size: 15px;
+  padding-top: 15%;
+  transition: all 1s;
+}
+
+.fersonal_container__left__info__tabs:hover{
+  padding-left: 10px;
+}
+
+/* ------------------- Phần phải-------------------- */
+.fersonal_container-right {
+  width: 75%;
+  display: inline-block;
+}
+
+/* ----- */
+.fersonal_container-right--header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+/* avatar */
+.backgroud_avatar {
+  width: 30%;
+  background-color: white;
+  border-radius: 10px 10px 0 10px;
+}
+
+.fersonal_container-right--header--avatar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(222, 226, 250);
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fersonal_container_hover__content {
+  display: none;
+}
+
+.fersonal_container-right--header--avatar--user {
+  width: 100%;
+  padding-top: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar_use {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: -10px;
+}
+
+.avatar_camera {
+  width: 20px;
+  height: 20px;
+
+  margin: 0 auto;
+}
+
+.fersonal_container-right--header--avatar--name {
+  padding: 8% 0;
+}
+
+/* chức năng */
+.fersonal_container-right--header--content {
+  width: 72%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 0 4.5%;
+  margin-top: 3.5%;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fersonal_container-right--header--content p {
+  font-size: 14px;
+}
+
+.content {
+  width: 33%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.content:hover .content_icon{
+  transform: scale(1.1);
+}
+
+.content:hover{
+  color: #3c4fe0;
+}
+
+.content_icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.content_icon img {
+  width: 50%;
+}
+
+.content p {
+  align-items: flex-end;
+}
+
+/* ---------------------right hiển thị------------- */
+.fersonal_container-right--fooder--content {
+  border-radius: 15px;
+  margin-bottom: 5%;
+}
+
+.contentt {
+  width: 100%;
+  font-size: 20px;
+}
+
+.ac {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+/* Thong tin */
+.active-content {
+  background: white;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3% 0;
+}
+
+.fersonal_container-right--fooder--content--active {
+  width: 95%;
+}
+
+/* chinh sửa thông tin */
+.fersonal_container-right--fooder--content--active p {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.fersonal_right__content_name {
+  padding-left: 1%;
+}
+
+/* ----- */
+.fersonal_container-right--fooder--content--active--edit {
+  background-color: #f6f6f6;
+  margin-top: 2%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/* chỉnh sửa tên đang nhập */
+.fersonal_container-right--fooder--content--active--edit--name {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  vertical-align: bottom;
+}
+
+.fersonal_container-right--fooder--content--active--edit--name--p {
+  display: flex;
+  flex-direction: column;
+}
+
+.fersonal_container-right--fooder--content--active--edit--name--p .name--login {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.fersonal_container-right--fooder--content--active--edit--name--p
+  .name--people {
+  font-weight: normal;
+}
+
+.fersonal_container-right--fooder--content--active--edit--name--button {
+  width: 10%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* custom button */
+.fersonal_container-right--fooder--content--active--edit--name--button button {
+  padding: 10%;
+  border-radius: 10px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.fersonal_container-right--fooder--content--active--password {
+  margin: 2%;
+}
+
+.fersonal_container-right--fooder--content--active--password button {
+  padding: 1%;
+  background-color: rgb(132, 132, 255);
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+/* giỏ hàng */
+.active-content-cart {
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3% 0;
+}
+.active-content-title {
+  background: white;
+  width: 100%;
+  border-radius: 15px;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+
+.active-content-title-content {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.active-content-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2%;
+}
+
+.active-content-list-card {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.active-content-list-card-image {
+  width: 15%;
+}
+
+.active-content-list-card-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 2%;
+}
+
+.active-content-list-card-content-name {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.active-content-list-card-content-type {
+  background-color: rgb(217, 217, 217);
+  width: 18%;
+  border-radius: 5px;
+  color: rgb(53, 53, 53);
+  padding: 5px;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.active-content-list-card-content-price {
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.active-content-list-card-content-cod {
+  background-color: rgb(217, 217, 217);
+  width: 10%;
+  padding: 1% 1% 1% 1%;
+  font-weight: 400;
+  font-size: 17px;
+  color: red;
+  border-radius: 5px;
+}
+
+.active-content-list-card-function {
+  width: 10%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.active-content-list-card-function-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.active-content-list-card-function-button-reduce {
+  width: 30px;
+  font-size: 25px;
+  border: none;
+  background: white;
+}
+
+.active-content-list-card-function-button-num {
+  font-size: 20px;
+  background: rgb(217, 217, 217);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.active-content-list-card-function-button-more {
+  width: 30px;
+  font-size: 20px;
+  margin-top: 5px;
+  border: none;
+  background: white;
+}
+
+.active-content-list-card-function-icon {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.personal-br {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(244, 244, 244);
+  float: left;
+  margin: 2% 0;
+}
+
+/* -----------------------nut phan trang ------------------- */
+
+.phan-trang {
+  padding: 20px 50px;
+  display: flex;
+  width: 100%;
+}
+.phan-trang-left {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 85px;
+  height: 40px;
+}
+.phan-trang-right {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 85%;
+  height: 40px;
+}
+.select-phan-trang {
+  padding: 0 10px;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.pagination {
+  width: 100%;
+  padding: 0;
+  margin-left: 10px;
+  display: flex;
+}
+
+.page-item {
+  width: 30px;
+  height: 30px;
+  margin: 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  border: 1px solid #81838e;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.page-item a {
+  padding: 3px;
+}
+.page-link {
+  padding: 3px 8px;
+  margin: 0 2px;
+}

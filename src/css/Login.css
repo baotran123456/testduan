@@ -1,0 +1,361 @@
+.container {
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* -------------------logo--------------- */
+.logo_form {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.logo {
+  width: 45%;
+}
+
+.name_logo_login {
+  width: 40%;
+  margin-top: 10px;
+}
+
+.name_logo {
+  font-size: 20px;
+  margin: 5px;
+}
+
+/* -----------------------form login--------------------- */
+
+.login {
+  margin: 0 auto;
+  width: 27%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_login_title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12%;
+  align-items: center;
+}
+
+.title_content {
+  width: 50%;
+  font-size: 22px;
+  font-weight: 750;
+  color: #707070;
+}
+
+.nouser {
+  width: 50%;
+  text-align: right;
+  color: #63a3f7;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/*--------  --------*/
+.container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.userr {
+  position: relative;
+  width: 100%;
+  margin: 0 0 6% 0;
+}
+.form__input {
+  width: 100%;
+  margin-bottom: 2%;
+}
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+  top: -0.2rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
+
+.userr input {
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  color: black;
+  outline: none;
+  padding: 17px 16px;
+}
+
+.userr input:hover {
+  border-color: #797b7c;
+}
+
+.userr input:focus {
+  border-color: #2065d1;
+}
+
+.userr label {
+  position: absolute;
+  left: 0.9rem;
+  top: 14px;
+  padding: 3px 5px;
+  color: #797b7c;
+  font-size: 16px;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  background-color: white;
+}
+
+.userr img {
+  position: absolute;
+  right: 1.2rem;
+  top: 15px;
+}
+
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+  top: -0.7rem;
+  font-size: 1rem;
+  left: 0.8rem;
+}
+
+.cbx {
+  display: flex;
+  width: 100%;
+  margin: 0 0 5% 0;
+}
+.cbx_1 {
+  width: 70%;
+
+  display: flex;
+  justify-content: flex-start;
+}
+.cbx_1:hover {
+  background-attachment: fixed;
+}
+.cbx_ipt {
+  color: #797b7c;
+  display: flex;
+  width: 13%;
+  padding: 20px;
+  height: 20px;
+}
+.cbx_2 {
+  color: #2065d1;
+  width: 30%;
+}
+.cbx_2:hover {
+  color: #103996;
+}
+
+.form_warning {
+  position: absolute;
+  padding: 0 16px;
+  font-size: 12px;
+  width: 100%;
+  color: red;
+}
+
+/* frames_img */
+.frames_img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ================================================================================================================================= */
+/* Login-register */
+.frames_img_login {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.frames_img_register {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form_login_input {
+  width: 100%;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.form_login_forgetmenot {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: #707070;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12%;
+  margin-top: -3%;
+}
+
+.form_login_forgetmenot_left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title_chb {
+  width: 82%;
+  font-size: 14px;
+}
+
+.form_login_forgetmenot p {
+  width: 35%;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.form_login_btn {
+  width: 100%;
+  background-color: #63a3f7;
+  color: white;
+  padding: 3% 2%;
+  font-size: 17px;
+  font-weight: 550;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 4%;
+}
+
+.login_or {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 8%;
+  color: #707070;
+}
+
+.form_login_with {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn_gg {
+  width: 31%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: #d0d0d0 2px solid;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.logo_gg {
+  width: 20%;
+  background-image: url("../assets/icon_gg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title_gg {
+  font-size: 13px;
+}
+
+.btn_tw {
+  width: 31%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: #d0d0d0 2px solid;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.logo_tw {
+  width: 20%;
+  background-image: url("../assets/logo_tw.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title_tw {
+  font-size: 13px;
+}
+
+.btn_fb {
+  width: 31%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: #d0d0d0 2px solid;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.logo_fb {
+  width: 20%;
+  background-image: url("../assets/logo_fb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title_fb {
+  font-size: 13px;
+}
+
+.footer_login {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #707070;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.footer_login_content {
+  width: 80%;
+  padding-bottom: 3px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_we {
+}
+
+.about_line {
+  width: 1px;
+  height: 20px;
+  background: #707070;
+  margin: 0 10px;
+}

@@ -1,0 +1,181 @@
+.contact_cty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5% ;
+}
+.contact_cty p{
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.contact_cty_hr{
+    height: 2px;
+    width: 10%;
+    background-color: #63A3F7;
+}
+.contact_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact_info_left{
+    width: 45%;
+    
+}
+.contact_info_right{
+    width: 45%;
+    padding-right: 2%;
+}
+.contact_info_right img{
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
+}
+.contact_info_right:hover img{
+    transform: scale(1.1);
+}
+
+.contact_info_left__before{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contact_info_left h1{
+    padding-bottom: 5%;
+    font-size: 45px;
+    color: #63A3F7;
+}
+.contact_info_left__before__img{
+   width: 20%;
+   padding-right: 2%;
+}
+.contact_info_left__before__img img{
+    width: 100%;
+}
+.contact_info_left__before p{
+    font-size: 17px;
+    padding-top: 15px;
+}
+.contact_info_left__note{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3% 0;
+}
+.contact_info_left__note_italic{
+    border-left: 5px solid #63A3F7;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 2%;
+}
+.italic_color{
+    font-size: 17px;
+    font-weight: 100 ;
+    padding-bottom: 2%;
+}
+.italic_bold{
+    font-size: 17px;
+    font-weight: bold;
+}
+.contact_number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 7% 0;
+}
+.number{
+    font-size: 120px;
+    font-weight: bold; 
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #63A3F7;
+   
+}
+.contact_number_auto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number p{
+    font-size: 20px;
+}
+#transaction-count{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+/* loi ich */
+
+.contact_benefit{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 7%;
+}
+.contact_benefit_img{
+    width: 50%;
+}
+.contact_benefit_whybenefit{
+    width: 50%;
+}
+.benefit{
+    font-size: 20px;
+}
+.contact_benefit_whybenefit h1{
+    padding-top: 2%;
+    color: #63A3F7;
+}
+.line{
+    width: 20%;
+    height: 1px;
+    background-color: #63A3F7;
+    margin: 3% 0;
+}
+.benefit1{
+    font-size: 17px;
+    color: #757575
+}
+.contact_benefit_whybenefit_four_experience{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+}
+.image{
+    width: 12%;
+    margin-right: 2%;
+}
+.image_border{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #63A3F7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.image_border img{
+    width: 60%;
+}
+.be{
+    width: 85%;
+}
+.be h2{
+    font-weight: 200;
+}
+.be p{
+    font-size: 17px;
+    padding-top: 1%;
+    color: #757575
+}

@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.address_dialog{
+    padding: 10px 20px 20px 20px;
+}
+
+.address_title{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.address_top{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.user_add{
+    position: relative;
+    width: 48%;
+    margin: 0 0 5% 0;
+}
+
+.user_add input{
+    width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  color: black;
+  outline: none;
+  padding: 17px 16px;
+}
+
+.user_add label{
+    position: absolute;
+    left: 0.9rem;
+    top: 14px;
+    padding: 3px 5px;
+    color: #797b7c;
+    font-size: 16px;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+}
+
+.user_add input:hover {
+    border-color: #797b7c;
+  }
+  
+  .user_add input:focus {
+    border-color: #2065d1;
+  }
+
+.user_addres{
+    position: relative;
+    width: 100%;
+    margin: 0 0 4% 0;
+}
+
+.user_addres input{
+    width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  color: black;
+  outline: none;
+  padding: 17px 16px;
+}
+
+.user_addres label{
+    position: absolute;
+    left: 0.9rem;
+    top: 14px;
+    padding: 3px 5px;
+    color: #797b7c;
+    font-size: 16px;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+}
+
+.user_addres input:hover {
+    border-color: #797b7c;
+  }
+  
+  .user_addres input:focus {
+    border-color: #2065d1;
+  }
+
+  .form_warning_adr {
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    font-size: 12px;
+    width: 100%;
+    text-align: left;
+    color: red;
+  }
+
+  .img_aleft{
+    width: 50%;
+    height: 100px;
+    background-image: url('../assets/aleft_donhang.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+  }

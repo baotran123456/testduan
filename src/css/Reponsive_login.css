@@ -1,0 +1,36 @@
+@media only screen and ( max-width : 1200px ) {
+    .main_small_product_card{
+        width: 45%;
+        margin-left: 27.5%;
+    }
+
+}
+
+@media only screen and ( max-width : 1023px ) {
+    .main_small_product_card{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+}
+
+@media only screen and ( max-width : 768px ) {
+  
+    .main_intimate{
+        margin-top: 7%;
+    }
+
+}
+
+@media only screen and ( max-width : 600px ) {
+  
+    .main_small_product_card{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .main_intimate{
+        margin-top: 13%;
+    }
+
+}

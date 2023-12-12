@@ -1,0 +1,1929 @@
+@media only screen and (min-width: 1600px) {
+  .home-header {
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .home-header {
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  /* ------------------------------Pesonal----------------------- */
+  .fersonal_container__left__info__tabs {
+    font-size: 12px;
+  }
+
+  .button-29 {
+    font-size: 10px;
+  }
+
+  .img_item_oder {
+    width: 100%;
+  }
+
+  .order-main-left-list-card {
+    font-size: 12px;
+  }
+
+  .itemDH_ID {
+    font-size: 10px;
+  }
+
+  .itemDH_TrangThai {
+    font-size: 12px;
+  }
+
+  /* -------------------------------Cart------------------------  */
+  .cart_container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .cart-main-right {
+    width: 40%;
+    height: 360px;
+  }
+
+  .cart-main-right-title {
+    font-size: 20px;
+  }
+
+  .cart-main-right-subtotal {
+    flex-direction: column;
+  }
+
+  .cart-main-right-subtotal-title {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .cart-main-right-subtotal-content {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .cart-main-right-total {
+    flex-direction: column;
+  }
+
+  .cart-main-right-total-title {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .cart-main-right-total-content {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  /* -------------------------------Login----------------------- */
+  .login {
+    width: 33%;
+  }
+
+  .nouser {
+    font-size: 12px;
+  }
+
+  .title_chb {
+    font-size: 12px;
+  }
+
+  .form_login_forgetmenot p {
+    width: 40%;
+    font-size: 12px;
+  }
+
+  /* ------------------------------Product---------------------- */
+  .product-main-top-right-user-information-button-left {
+    font-size: 8px;
+  }
+
+  .product-main-top-right-user-information-button-right {
+    font-size: 8px;
+  }
+
+  .product-main-top-right-service p {
+    font-size: 7px;
+  }
+
+  .product-main-list-content-card-img {
+    height: 400px;
+  }
+
+  /* ------------------------------Home------------------------- */
+  .main_new_bottom_card_cws {
+    width: 135px;
+  }
+
+  .main_new_bottom_card_comment {
+    width: 40px;
+  }
+
+  .main_new_bottom_card_comment_image {
+    width: 10px;
+  }
+
+  .main_new_bottom_card_comment_image img {
+    width: 10px;
+  }
+
+  .main_new_bottom_card_comment_content {
+    font-size: 9px;
+  }
+
+  .main_new_bottom_card_name {
+    font-size: 13px;
+  }
+
+  .main_new_top_big_title {
+    font-size: 16px;
+  }
+
+  .number_comment {
+    width: 100%;
+  }
+
+  .number_comment_icon {
+    width: 13px;
+  }
+
+  .number_comment_icon img {
+    width: 13px;
+  }
+
+  .main_new_top_center_big_content {
+    width: 75%;
+  }
+
+  .number_coment_content {
+    font-size: 11px;
+  }
+
+  .main_new_top_center_coment_content {
+    font-size: 10px;
+  }
+
+  .main_new_top_center_big_time {
+    font-size: 10px;
+  }
+
+  .main_new_top_center_number_comment {
+    width: 100%;
+  }
+
+  .main_new_top_center_number_comment_icon {
+    width: 12px;
+  }
+
+  .main_new_top_center_number_comment_icon img {
+    width: 12px;
+  }
+
+  .container-nganh-hoc .mid {
+    top: 10%;
+    font-size: 13px;
+  }
+
+  /* -----------------------------navbar------------------------ */
+  .home-header_ul_li_navlink {
+    font-size: 10px;
+  }
+
+  .home-header_logo {
+    width: 13%;
+  }
+
+  /* Contact */
+  .contact_info_left h1 {
+    font-size: 34px;
+  }
+  .contact_info_right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+  .image_border {
+    width: 60px;
+    height: 60px;
+  }
+  .be h2 {
+    font-size: 17px;
+  }
+  .be p {
+    font-size: 15px;
+  }
+  .number {
+    font-size: 100px;
+  }
+  /* Navigate */
+  .title_list_cottom_button {
+    width: 40%;
+  }
+  .title_list_cottom--content h2 {
+    font-size: 20px;
+  }
+  .title_list_cottom--content p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .product-main-list-content-card-img {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* ---------------------------Oder------------------------ */
+  .order-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .order-main-left {
+    width: 90%;
+  }
+
+  .cart-main-left-list {
+    width: 100%;
+  }
+
+  .order-main-left-list {
+    width: 100%;
+  }
+
+  .order-main-right {
+    width: 90%;
+    margin: 30px 0;
+  }
+
+  .order-main-left-payment-button-left {
+    width: 49%;
+  }
+
+  .order-main-left-payment-button-right {
+    width: 49%;
+  }
+  .order-main-left-payment-button-right-error {
+    width: 49%;
+  }
+  .payment_button_span_right_error {
+    width: 100%;
+  }
+
+  /* ---------------------------Cart------------------------ */
+  .cart-header-stage-wrapper-container-step-inner {
+    font-size: 9px;
+  }
+
+  .type_cart_item {
+    font-size: 9px;
+  }
+
+  .name_cart_item {
+    font-size: 12px;
+  }
+
+  .money_cart_item {
+    font-size: 13px;
+  }
+
+  .moneygg_cart_item {
+    font-size: 8px;
+  }
+
+  /* --------------------------Produce---------------------- */
+  .img_user_product {
+    width: 30%;
+  }
+
+  .product-main-top {
+    display: none;
+  }
+
+  .product-main-top_new {
+    display: flex;
+  }
+
+  .product-main-top-center {
+    width: 100%;
+  }
+
+  .product-main-top-left {
+    margin-top: 20px;
+    width: 48%;
+  }
+
+  .product-main-top-right {
+    margin-top: 20px;
+    width: 48%;
+  }
+
+  .product-main-top-right-service p {
+    font-size: 13px;
+  }
+
+  .product-main-top-right-user-information-button-left {
+    font-size: 16px;
+  }
+
+  .product-main-top-right-user-information-button-right {
+    font-size: 16px;
+  }
+
+  .product-main-list-content-card-img {
+    height: 300px;
+  }
+
+  /* --------------------------Home------------------------ */
+
+  .main_new_top_big_content {
+    width: 40%;
+  }
+
+  .main_new_bottom_card_name {
+    font-size: 12px;
+  }
+
+  .container-nganh-hoc .mid {
+    width: 90%;
+    top: 8%;
+    font-size: 12px;
+  }
+
+  .home-main-introduce-content-frontpager {
+    font-size: 15px;
+  }
+
+  .home-main-introduce-content-title {
+    font-size: 12px;
+    height: 120px;
+  }
+
+  .text--big {
+    font-size: 5em;
+  }
+
+  .text__background {
+    top: 10%;
+    font-size: 90px;
+  }
+
+  /* ---------------navbar------------------ */
+  .home-header_icon {
+    width: 16%;
+  }
+  .title_container--text {
+    width: 55%;
+  }
+  .title {
+    max-width: 90%;
+  }
+
+  .news_table {
+    width: 90%;
+  }
+  .footer_container {
+    max-width: 90%;
+  }
+  .policy {
+    width: 90%;
+  }
+  .detail_container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* -------------------------------Login----------------------- */
+  .login {
+    width: 35%;
+  }
+
+  .title_content {
+    font-size: 19px;
+  }
+
+  .nouser {
+    font-size: 12px;
+  }
+
+  .title_chb {
+    font-size: 12px;
+  }
+
+  .form_login_forgetmenot p {
+    width: 40%;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  /* ------------------------------Pesonal----------------------- */
+
+  .fersonal_container__left {
+    display: none;
+  }
+
+  .fersonal_container-right {
+    width: 100%;
+  }
+
+  .fersonal_container-right--fooder--content--active--edit--name--button {
+    width: 20%;
+  }
+
+  /* --------------------------------Cart------------------------ */
+  .cart-main-right_reponsive {
+    display: block;
+    height: 350px;
+  }
+
+  .item_img_oder {
+    height: 70px;
+  }
+
+  /* -------------------------------Login----------------------- */
+  .login {
+    width: 40%;
+  }
+
+  .title_content {
+    font-size: 19px;
+  }
+
+  .nouser {
+    font-size: 12px;
+  }
+
+  .title_chb {
+    font-size: 12px;
+  }
+
+  .form_login_forgetmenot p {
+    width: 40%;
+    font-size: 12px;
+  }
+
+  /* ------------------------------Produce--------------------------- */
+  .product-main-top-right-user-information-button-left {
+    font-size: 11px;
+  }
+
+  .product-main-top-right-user-information-button-right {
+    font-size: 11px;
+  }
+
+  .product-main-top-right-service p {
+    font-size: 11px;
+  }
+
+  .product-main-list-content-card-img {
+    height: 250px;
+  }
+
+  /* -----------------------------Home---------------------------- */
+  .main_new_bottom {
+    flex-wrap: wrap;
+  }
+
+  .main_new_bottom_card {
+    width: 49%;
+    margin-top: 20px;
+  }
+
+  .home_main_new_top {
+    flex-wrap: wrap;
+  }
+
+  .main_new_top_small {
+    width: 49%;
+    margin-top: 20px;
+  }
+
+  .main_new_top_big {
+    width: 100%;
+  }
+
+  .pre_container {
+    flex-wrap: wrap;
+  }
+
+  .container-nganh-hoc {
+    width: 50%;
+  }
+
+  .container-nganh-hoc .mid {
+    top: 13%;
+    font-size: 13px;
+  }
+
+  .flex__item {
+    height: 50vh;
+  }
+
+  .banner_container {
+    height: 50vh;
+  }
+
+  .flex__container {
+    height: 50vh;
+  }
+
+  .pokemon__img {
+    height: 50vh;
+  }
+
+  .text--big {
+    font-size: em;
+  }
+
+  .text--normal {
+    font-size: 15px;
+  }
+
+  /* --------------------------navbar-------------------------- */
+  .home-header_ul_li_navlink {
+    font-size: 9px;
+  }
+
+  .home-header_logo {
+    width: 13%;
+  }
+
+  .home-header_icon {
+    width: 20%;
+  }
+
+  /* Introduct */
+  .title_container {
+    flex-direction: column;
+  }
+  .title_container--text {
+    width: 100%;
+  }
+  .title_container__input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .title_container__input__Textfield__name {
+    width: 70%;
+  }
+  .title_container__input__buttom button {
+    width: 70%;
+  }
+  /* Navigate */
+  .title_list_view {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title_list_cottom {
+    max-width: 48%;
+  }
+
+  /* Detail */
+  .detail-main-top-right-button {
+    width: 80%;
+  }
+  .detail-main-top-right-button-picknb {
+    width: 30%;
+  }
+  .favorite {
+    width: 40%;
+  }
+  .home-main-purview-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .purview_respon {
+    width: 100%;
+  }
+  .purview_card {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* --------------------------------Oder------------------------- */
+  .order-main-left-list-card-content-price {
+    display: none;
+  }
+
+  /* --------------------------------Cart------------------------ */
+
+  .cart-header {
+    height: 160px;
+  }
+
+  .cart_header_container {
+    flex-direction: column;
+    height: 160px;
+  }
+
+  .cart_header_left {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cart-header-logo {
+    width: 40%;
+  }
+
+  .cart-header-test {
+    width: 60%;
+  }
+
+  .cart-header-stage {
+    width: 100%;
+  }
+
+  .cart_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cart-main-right {
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .cart-main-right-subtotal {
+    flex-direction: row;
+  }
+
+  .cart-main-right-subtotal-title {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .cart-main-right-subtotal-content {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .cart-main-right-total {
+    flex-direction: row;
+  }
+
+  .cart-main-right-total-title {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .cart-main-right-total-content {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .moneygg_cart_item {
+    width: 0%;
+    font-size: 0;
+  }
+
+  /* -------------------------------Login----------------------- */
+  .logo_form {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .login {
+    width: 49%;
+  }
+
+  .title_content {
+    font-size: 19px;
+  }
+
+  .nouser {
+    font-size: 12px;
+  }
+
+  .title_chb {
+    font-size: 12px;
+  }
+
+  .form_login_forgetmenot p {
+    width: 40%;
+    font-size: 12px;
+  }
+
+  /* --------------------------------Produce-------------------------- */
+  .product-main-list {
+    flex-wrap: wrap;
+  }
+
+  .product-main-list-content-card {
+    width: 31.7%;
+  }
+
+  .product-main-list-content-card-img {
+    height: 300px;
+  }
+
+  .content_card {
+    transform: translate3d(0, 25%, 0);
+    opacity: 1;
+  }
+
+  .product-main-list-content-card-name {
+    font-size: 14px;
+  }
+
+  .product-main-list-content-card-price {
+    font-size: 16px;
+  }
+
+  .product-main-list-content-card-number {
+    font-size: 8px;
+  }
+
+  /* ---------------------------------Home--------------------------- */
+  .home-main-introduce-content-frontpager {
+    font-size: 13px;
+  }
+
+  .home-main-introduce-content-title {
+    font-size: 11px;
+    height: 120px;
+  }
+
+  .text--big {
+    font-size: 4em;
+  }
+
+  .text__background {
+    top: 10%;
+    font-size: 80px;
+  }
+
+  /* -----------------------------navbar--------------------------- */
+  .header_container {
+    height: 100%;
+  }
+
+  .open_nav {
+    width: 5%;
+  }
+
+  .open_navimg {
+    width: 100%;
+  }
+
+  .home-header_logo {
+    width: 20%;
+  }
+
+  .home-header_icon {
+    width: 20%;
+  }
+
+  .home-header_ul {
+    position: absolute;
+    width: 50%;
+    background-color: white;
+    height: max-content;
+    left: -50%;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+  }
+
+  .open_nav {
+    display: block;
+  }
+
+  .repon_nav {
+    left: 0;
+  }
+
+  .home-header_ul li {
+    width: 100%;
+  }
+
+  .home-header_ul_li_navlink {
+    width: 100%;
+    color: black;
+  }
+
+  /* Contact */
+  .contact_info {
+    flex-direction: column;
+  }
+
+  .contact_info_left {
+    width: 98%;
+  }
+  .contact_info_left h1 {
+    text-align: center;
+  }
+
+  .contact_info_right {
+    width: 100%;
+  }
+  .contact_number {
+    text-align: center;
+  }
+  .number {
+    font-size: 80px;
+  }
+  .text-xl {
+    font-size: 13px;
+    padding: 0 1%;
+  }
+
+  .contact_benefit_img {
+    width: 100%;
+  }
+  .contact_benefit {
+    flex-direction: column;
+  }
+  .contact_benefit_whybenefit {
+    width: 100%;
+  }
+
+  .image_border {
+    width: 55px;
+    height: 55px;
+  }
+  /* News */
+  .news_table_text {
+    flex-direction: column;
+  }
+  .news_table_left {
+    width: 100%;
+  }
+  .news_table_left h1 {
+    font-size: 24px;
+  }
+  .policy_right {
+    width: 100%;
+  }
+  /* Policy */
+  .policy_contai {
+    flex-direction: column;
+  }
+  .policy_left {
+    width: 100%;
+  }
+  .policy_left h1 {
+    font-size: 22px;
+  }
+  .policy_left h2 {
+    font-size: 20px;
+  }
+
+  /* detail */
+  .detail-main-top {
+    flex-direction: column;
+  }
+  .detail-main-top-left {
+    width: 100%;
+  }
+  .detail-main-top-right {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .purview_card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form_information_footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .form_div {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .form_div1 {
+    width: 100%;
+  }
+  .form_people {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .home-header_icon {
+    width: 26%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* -------------------------------Peson----------------------- */
+  .itemDH_ID {
+    font-size: 8px;
+  }
+
+  .itemDH_ThanhTien {
+    font-size: 12px;
+  }
+
+  .itemDH_Date {
+    font-size: 12px;
+  }
+
+  .btn_XemSP {
+    font-size: 10px;
+  }
+
+  .btn_HuyDH {
+    font-size: 10px;
+  }
+
+  .name_ChiTiet_DH {
+    font-size: 10px;
+  }
+
+  .soluong_ChiTiet_DH {
+    font-size: 10px;
+  }
+
+  .tongTien_ChiTiet_DH {
+    font-size: 12px;
+  }
+
+  /* -------------------------------Login----------------------- */
+  .login {
+    width: 55%;
+  }
+
+  .title_content {
+    font-size: 17px;
+  }
+
+  .nouser {
+    font-size: 10px;
+  }
+
+  .title_chb {
+    font-size: 10px;
+  }
+
+  .form_login_forgetmenot p {
+    width: 40%;
+    font-size: 10px;
+  }
+
+  .title_gg {
+    font-size: 11px;
+  }
+
+  .title_tw {
+    font-size: 11px;
+  }
+
+  .title_fb {
+    font-size: 11px;
+  }
+
+  /* ------------------------Produce---------------------- */
+  .product-main-top-right-user-information-button-left {
+    font-size: 8px;
+  }
+
+  .product-main-top-right-user-information-button-right {
+    font-size: 8px;
+  }
+
+  .product-main-top-right-service p {
+    font-size: 7px;
+  }
+
+  .product-main-list-content-card-img {
+    height: 200px;
+  }
+
+  .product-main-list-content-card-name {
+    font-size: 12px;
+  }
+
+  .product-main-list-content-card-price {
+    font-size: 14px;
+  }
+
+  .price_reduced {
+    font-size: 8px;
+  }
+
+  .product-main-list-content-card-number {
+    font-size: 7px;
+  }
+
+  /* --------------------------Home---------------------- */
+  .container-nganh-hoc .mid {
+    top: 10%;
+  }
+
+  .home-main-introduce {
+    flex-direction: column;
+  }
+
+  .home-main-introduce-content {
+    width: 100%;
+  }
+
+  .home-main-introduce-content-title {
+    width: 100%;
+    height: 70px;
+  }
+
+  .home-main-introduce-image {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .text--big {
+    font-size: 3em;
+  }
+
+  .text__background {
+    top: 10%;
+    font-size: 70px;
+  }
+
+  .home-header_icon {
+    width: 31%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* ------------------------Navbar-------------------------- */
+
+  .home-header_ul {
+    position: absolute;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+    left: -50%;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+  }
+
+  .open_nav {
+    display: block;
+  }
+
+  .repon_nav {
+    left: 0;
+  }
+
+  .home-header_ul li {
+    width: 100%;
+  }
+
+  .home-header_ul_li_navlink {
+    width: 100%;
+    color: black;
+  }
+
+  .home-header_icon {
+    width: 32%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .form_div {
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  .form_div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .form_people {
+    width: 50%;
+  }
+  .form_fanpage {
+    width: 80%;
+  }
+  .form_contact {
+    width: 80%;
+  }
+  .form_people {
+    width: 80%;
+  }
+  .form_people {
+    width: 80%;
+  }
+
+  .form_people_one {
+    display: flex;
+  }
+  .form_people_p_me {
+    width: 50%;
+  }
+  .form_contact {
+    padding: 2%;
+  }
+  .form_link {
+    width: 50%;
+    padding-right: 2%;
+  }
+  .form_information_footer h3 {
+    padding: 5% 0;
+    height: fit-content;
+  }
+  /* ------------------------------Pesonal----------------------- */
+  .fersonal_container_hover__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .fersonal_container__hover {
+    position: relative;
+  }
+
+  .fersonal_container_hover__content {
+    width: 45%;
+    padding: 2%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 9999;
+    background-color: #e2f0f9;
+    transition: 1s;
+  }
+
+  .fersonal_container_hover__content_new {
+    top: 245px;
+    display: block;
+    transition: 1s;
+  }
+
+  .fersonal_container_hover__info img {
+    width: 20%;
+    z-index: 999;
+  }
+
+  .fersonal_container_hover__info h3 {
+    padding-top: 10px;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .fersonal_container__hover {
+    display: block;
+  }
+
+  .Item_IDDH {
+    width: 45%;
+    font-size: 10px;
+  }
+
+  .Item_TrangThaiDH {
+    font-size: 10px;
+  }
+
+  .Item_ThanhTienDH {
+    font-size: 10px;
+  }
+
+  .Item_TimeDH {
+    display: none;
+  }
+
+  .Item_btnDH {
+    font-size: 10px;
+  }
+
+  .itemDH_ID {
+    width: 45%;
+    font-size: 8px;
+  }
+
+  .itemDH_TrangThai {
+    font-size: 8px;
+  }
+
+  .itemDH_ThanhTien {
+    font-size: 8px;
+  }
+
+  .itemDH_Date {
+    display: none;
+  }
+
+  .btn_XemSP {
+    font-size: 7px;
+  }
+
+  .btn_HuyDH {
+    font-size: 7px;
+  }
+  /* ---------------------------------Peson--------------------------- */
+  .content_CTDH {
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .name_ChiTiet_DH {
+    width: 100%;
+    text-align: left;
+  }
+
+  .soluong_ChiTiet_DH {
+    width: 100%;
+    text-align: left;
+  }
+
+  .tongTien_ChiTiet_DH {
+    width: 100%;
+    text-align: left;
+  }
+
+  /* --------------------------------Oder----------------------- */
+  .oder-main-left-list-card-function-button-num {
+    display: none;
+  }
+
+  .order-main-left-list-card-content-name {
+    width: 70%;
+  }
+
+  .img_item_oder {
+    width: 100%;
+    object-fit: cover;
+    height: 125px;
+  }
+
+  .order_main_card_tt {
+    width: 30%;
+    font-size: 10px;
+  }
+
+  /* -------------------------------Login----------------------- */
+  .login {
+    width: 60%;
+  }
+
+  .title_content {
+    font-size: 17px;
+  }
+
+  .nouser {
+    font-size: 10px;
+  }
+
+  .title_chb {
+    font-size: 10px;
+  }
+
+  .form_login_forgetmenot p {
+    width: 40%;
+    font-size: 10px;
+  }
+
+  .title_gg {
+    font-size: 11px;
+  }
+
+  .title_tw {
+    font-size: 11px;
+  }
+
+  .title_fb {
+    font-size: 11px;
+  }
+
+  .footer_login {
+    font-size: 10px;
+  }
+
+  /* ----------------------------Produce---------------------------- */
+  .reduce {
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    top: -5px;
+  }
+
+  .reduce_background {
+    width: 40px;
+    height: 40px;
+  }
+
+  .reduce_content {
+    font-size: 7px;
+  }
+
+  .content_card {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(#ffffffc3, #e2f0f9);
+    border-radius: 0 0 5px 5px;
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+  .product-main-top-left-content {
+    height: 160px;
+  }
+
+  .product-main-top-left-content p {
+    font-size: 10px;
+  }
+
+  .img_user_product {
+    width: 50%;
+  }
+
+  .product-main-top-right-service-top {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .product-main-top-right-service-top-left {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-main-top-right-service-top-right {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-main-top-right-service-bottom-left {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-main-top-right-service-bottom-right {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-main-top-right-service p {
+    font-size: 10px;
+  }
+
+  .product-main-top-right-service-bottom {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .product-main-top-right-user-information {
+    width: 100%;
+  }
+
+  .product-main-top-right-user {
+    flex-direction: column;
+  }
+
+  .product_service {
+    display: none;
+  }
+
+  .product-main-top-right-user-information-button {
+    width: 100%;
+  }
+
+  .product-main-top-right-user-information-button-left {
+    width: 45%;
+    font-size: 10px;
+  }
+
+  .product-main-top-right-user-information-button-right {
+    width: 45%;
+    font-size: 10px;
+  }
+
+  .product-main-top-right-user-information-title {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .content_card {
+    transform: translate3d(0, 0%, 0);
+    opacity: 1;
+  }
+
+  /* ------------------------------Home----------------------------- */
+  .text--big {
+    font-size: 1.5em;
+  }
+
+  .flex__content {
+    margin-left: 20px;
+  }
+
+  .text__background {
+    top: 20%;
+    font-size: 50px;
+  }
+
+  .flex__item {
+    height: 30vh;
+  }
+
+  .banner_container {
+    height: 30vh;
+  }
+
+  .flex__container {
+    height: 30vh;
+  }
+
+  .pokemon__img {
+    height: 30vh;
+  }
+
+  /* -----------------------------navbar--------------------------- */
+  .open_nav {
+    width: 10%;
+  }
+
+  .open_navimg {
+    width: 60%;
+  }
+
+  .home-header_logo {
+    width: 30%;
+  }
+
+  .home-header-logo-image-name {
+    display: none;
+  }
+
+  .home-header_icon {
+    width: 40%;
+  }
+
+  /* Introduct */
+  .title_container {
+    width: 100%;
+  }
+  #diachi {
+    width: 75%;
+  }
+  .title_container__input__Textfield__name {
+    width: 80%;
+  }
+  .title_container__input__buttom button {
+    width: 80%;
+  }
+  /* Contact */
+  .contact_info {
+    flex-direction: column;
+  }
+  .contact_cty p {
+    font-size: 20px;
+  }
+  .contact_info_left {
+    width: 98%;
+  }
+  .contact_info_left h1 {
+    font-size: 23px;
+    text-align: center;
+  }
+  .contact_info_left__before p {
+    font-size: 14px;
+  }
+  .italic_bold {
+    font-size: 14px;
+  }
+  .italic_color {
+    font-size: 14px;
+  }
+  .contact_info_right {
+    width: 100%;
+  }
+  .contact_number {
+    flex-direction: column;
+  }
+  .contact_benefit {
+    flex-direction: column;
+  }
+  .contact_benefit_img {
+    width: 100%;
+  }
+  .contact_benefit_whybenefit {
+    width: 100%;
+  }
+  .contact_benefit_whybenefit h1 {
+    font-size: 25px;
+  }
+  .benefit {
+    font-size: 17px;
+  }
+  .benefit1 {
+    font-size: 15px;
+  }
+  .be h2 {
+    font-size: 15px;
+  }
+  .be p {
+    font-size: 14px;
+  }
+  .image_border {
+    width: 45px;
+    height: 45px;
+  }
+  /* Navigate */
+  .title_list_cottom {
+    max-width: 100%;
+    list-style-type: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* -------------------------------------Login------------------------------------ */
+  .footer_login_content {
+    width: 100%;
+  }
+
+  .footer_login {
+    font-size: 8px;
+  }
+
+  /* ------------------------------------Produce---------------------------------- */
+  .product-main-list-content-card-name {
+    font-size: 8px;
+  }
+
+  .product-main-list-content-card-price {
+    font-size: 10px;
+  }
+
+  .price_reduced {
+    font-size: 8px;
+  }
+
+  .product-main-list-content-card-number {
+    font-size: 7px;
+  }
+
+  /* --------------------------------------Home----------------------------------- */
+  .pre_container {
+    flex-direction: column;
+  }
+
+  .home_main_slide_item_imgbg {
+    width: 50%;
+  }
+
+  .container-nganh-hoc {
+    width: 100%;
+  }
+
+  .container-nganh-hoc .mid {
+    height: 90%;
+    top: 15%;
+  }
+
+  .container-nganh-hoc .bot {
+    transform: translate(21%, 35%);
+  }
+
+  .home-main-introduce-content-title {
+    width: 100%;
+    height: 90px;
+  }
+
+  .home-header_icon {
+    width: 50%;
+  }
+
+  .open_nav {
+    width: 10%;
+  }
+
+  .open_navimg {
+    width: 90%;
+  }
+
+  .home-header_logo {
+    width: 30%;
+  }
+
+  /* Introduct */
+  .title_container__input__Textfield__name {
+    width: 90%;
+  }
+  .title_container__input__buttom button {
+    width: 90%;
+  }
+  /* Contact */
+  .contact_info {
+    flex-direction: column;
+  }
+  .contact_cty p {
+    font-size: 20px;
+  }
+  .contact_info_left {
+    width: 98%;
+  }
+  .contact_info_left h1 {
+    font-size: 23px;
+    text-align: center;
+  }
+  .contact_info_left__before p {
+    font-size: 14px;
+  }
+  .italic_bold {
+    font-size: 14px;
+  }
+  .italic_color {
+    font-size: 14px;
+  }
+  .contact_info_right {
+    width: 100%;
+  }
+  .contact_number {
+    flex-direction: column;
+  }
+  .contact_benefit {
+    flex-direction: column;
+  }
+  .contact_benefit_img {
+    width: 100%;
+  }
+  .contact_benefit_whybenefit {
+    width: 100%;
+  }
+  .contact_benefit_whybenefit h1 {
+    font-size: 25px;
+  }
+  .benefit {
+    font-size: 17px;
+  }
+  .benefit1 {
+    font-size: 15px;
+  }
+  .be h2 {
+    font-size: 15px;
+  }
+  .be p {
+    font-size: 14px;
+  }
+  .image_border {
+    width: 45px;
+    height: 45px;
+  }
+  /* detail */
+  .purview_card {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .home-main-purview {
+    width: 180px;
+    height: 150px;
+    margin-top: 5%;
+  }
+  .home-main-purview-card {
+    margin: 5% 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  /* -------------------------------Login----------------------- */
+  .login {
+    width: 80%;
+  }
+
+  .title_content {
+    font-size: 17px;
+  }
+
+  .nouser {
+    font-size: 10px;
+  }
+
+  .title_chb {
+    font-size: 10px;
+  }
+
+  .form_login_forgetmenot p {
+    width: 40%;
+    font-size: 10px;
+  }
+
+  .title_gg {
+    font-size: 10px;
+  }
+
+  .title_tw {
+    font-size: 10px;
+  }
+
+  .title_fb {
+    font-size: 10px;
+  }
+
+  .main_new_top_small {
+    width: 100%;
+  }
+
+  .main_new_bottom_card {
+    width: 100%;
+  }
+
+  .home-header_icon {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  /* --------------------------------Produce-------------------------- */
+  .product-main-list-content-card-img {
+    height: 150px;
+  }
+  .product-main-list-content-card-name {
+    font-size: 8px;
+  }
+
+  .product-main-list-content-card-price {
+    font-size: 7px;
+  }
+
+  .price_reduced {
+    font-size: 5px;
+  }
+
+  .product-main-list-content-card-number {
+    font-size: 5px;
+  }
+  /* -----------------------------------Navbar---------------------------- */
+  .open_nav {
+    width: 7%;
+  }
+
+  .open_navimg {
+    width: 100%;
+  }
+
+  .home-header_logo {
+    width: 15%;
+  }
+
+  .home-header-logo-image {
+    width: 100%;
+  }
+
+  .home-header_icon {
+    width: 30%;
+  }
+
+  /* Introduct */
+  .title_container__input__Textfield__name {
+    width: 100%;
+  }
+  .title_container__input__buttom button {
+    width: 100%;
+  }
+  .Br {
+    width: 100%;
+  }
+  .title_container--text--name--content--group {
+    flex-direction: column;
+  }
+  #diachi {
+    width: 100%;
+    padding: 2% 0;
+  }
+  .name {
+    width: 50%;
+  }
+  /* Contact */
+  .contact_benefit_whybenefit_four_experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .image {
+    padding: 2% 0;
+  }
+
+  /* detail */
+  .preview {
+    padding: 2%;
+  }
+  .preview_content p {
+    text-align: center;
+  }
+  .detail-main-top-right {
+    width: 100%;
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  /* -------------------------------Login----------------------- */
+  .login {
+    width: 90%;
+  }
+
+  .title_content {
+    font-size: 17px;
+  }
+
+  .nouser {
+    font-size: 10px;
+  }
+
+  .title_chb {
+    font-size: 10px;
+  }
+
+  .form_login_forgetmenot p {
+    width: 40%;
+    font-size: 10px;
+  }
+
+  .title_gg {
+    font-size: 10px;
+  }
+
+  .title_tw {
+    font-size: 10px;
+  }
+
+  .title_fb {
+    font-size: 10px;
+  }
+
+  .open_nav {
+    width: 10%;
+  }
+
+  .open_navimg {
+    width: 100%;
+  }
+
+  .home-header_logo {
+    width: 15%;
+  }
+
+  .home-header-logo-image {
+    width: 100%;
+  }
+
+  .home-header_icon {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 820px) {
+  /* Contact */
+  .contact_info_left h1 {
+    font-size: 30px;
+  }
+  .contact_info_left {
+    width: 53%;
+  }
+  .contact_info_right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+  .contact_info_right img {
+    width: 100%;
+  }
+  .number {
+    font-size: 80px;
+  }
+  .text-blue-200 {
+    font-size: 13px;
+  }
+  .contact_benefit_whybenefit h1 {
+    font-size: 27px;
+  }
+  .image_border {
+    width: 50px;
+    height: 50px;
+  }
+  .contact_benefit_whybenefit {
+    width: 56%;
+  }
+}

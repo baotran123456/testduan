@@ -1,0 +1,439 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.order {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+}
+
+/* chỉnh cho phần ô tròn thứ hai trên slide tiến trình mua hàng  */
+.order-header-stage-wrapper-container-step2::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: deepskyblue;
+  margin: auto;
+  border: solid 7px white;
+  border-radius: 50%;
+  margin-top: 75px;
+  box-shadow: 0 2px 13px -1px rgba(0, 0, 0, 0.3);
+  transition: all ease 0.2s;
+}
+
+/* tùy chỉnh kích thước line xanh */
+.order-header-stage-wrapper-container-line-process {
+  content: "";
+  width: 35%;
+  height: 100%;
+  background: deepskyblue;
+  background: linear-gradient(to right, deepskyblue 0%, #2ea37b 100%);
+  position: absolute;
+  z-index: 2;
+  border-radius: 50px;
+  transition: all ease 0.9s;
+}
+
+.order-main {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background: #f6f6f6;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+/* khối div bên trái */
+.order-main-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 
+khối div địa chỉ giao hàng */
+.order-main-left-address {
+  width: 100%;
+  background: white;
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.order-main-left-address-title {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.order-main-left-address-para {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.order-main-left-address-para-icon {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: solid 10px rgb(248, 45, 45);
+  border-radius: 50%;
+  box-shadow: 0 2px 13px -1px rgba(0, 0, 0, 0.3);
+  transition: all ease 0.2s;
+}
+
+.img_item_oder {
+  width: 100%;
+  height: 140px;
+}
+
+.item_img_oder {
+  width: 25%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.order-main-left-para-content {
+  margin-left: 20px;
+}
+
+.order-main-left-address-para-content-person {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.order-main-left-address-content-address {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.order-main-left-address-content-button {
+  margin-top: 20px;
+}
+
+.order-main-left-address-content-button-edit {
+  color: #848484;
+  background: white;
+  border: none;
+  font-size: 15px;
+}
+
+.order-main-left-address-content-button-delete {
+  color: #848484;
+  background: white;
+  border: none;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+/* khối div phương thức thanh toán */
+.order-main-left-payment {
+  width: 100%;
+  background: white;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.order-main-left-payment-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.order-main-left-payment-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.order-main-left-payment-button-left {
+  width: 30%;
+  height: 130px;
+  background: white;
+  display: flex;
+  color: #54e6e7;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s linear;
+  position: relative;
+  border: rgba(0, 0, 0, 0.181) 1px solid;
+}
+
+.order-main-left-payment-button-right {
+  width: 30%;
+  height: 130px;
+  background: white;
+  display: flex;
+  color: #54e6e7;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+  position: relative;
+  border: rgba(0, 0, 0, 0.181) 1px solid;
+}
+
+.order-main-left-payment-button-right-error {
+  width: 30%;
+  height: 130px;
+  background: white;
+  display: flex;
+  color: #54e6e7;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+  position: relative;
+  border: rgba(0, 0, 0, 0.181) 1px solid;
+}
+
+.payment_button_left_onclick {
+  width: 30%;
+  height: 130px;
+  background: #54e7e760;
+  display: flex;
+  color: black;
+  border: #54e6e7 2px solid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.payment_button_right_onclick {
+  width: 30%;
+  height: 130px;
+  background: #54e7e760;
+  display: flex;
+  color: black;
+  border: #54e6e7 2px solid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+  position: relative;
+}
+
+.payment_button_span_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment_button_span_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment_button_span_right_error {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment_button_span_right_error p{
+  width: 100%;
+  text-align: center;
+}
+
+.order-main-left-payment-button-left::before,
+.order-main-left-payment-button-left::after {
+  cursor: pointer;
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.5s linear;
+  background: #54e6e7;
+}
+
+.payment_button_span_left::before,
+.payment_button_span_left::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.5s linear;
+  background: #54e6e7;
+}
+
+.order-main-left-payment-button-left:hover {
+  background-color: white;
+  color: black;
+}
+
+.order-main-left-payment-button-left:hover::before,
+.order-main-left-payment-button-left:hover::after {
+  width: 100%;
+}
+
+.order-main-left-payment-button-left:hover .payment_button_span_left::before,
+.order-main-left-payment-button-left:hover .payment_button_span_left::after {
+  height: 100%;
+}
+
+.order-main-left-payment-button-left::after {
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.7s;
+}
+
+.order-main-left-payment-button-left .payment_button_span_left::after {
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.7s;
+}
+
+.order-main-left-payment-button-left::before {
+  left: 0;
+  top: 0;
+  transition-duration: 0.7s;
+}
+
+.order-main-left-payment-button-left .payment_button_span_left::before {
+  left: 0;
+  top: 0;
+  transition-duration: 0.7s;
+}
+
+.order-main-left-payment-button-right::before,
+.order-main-left-payment-button-right::after {
+  cursor: pointer;
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.5s linear;
+  background: #54e6e7;
+}
+
+.payment_button_span_right::before,
+.payment_button_span_right::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.5s linear;
+  background: #54e6e7;
+}
+
+.order-main-left-payment-button-right:hover {
+  background-color: white;
+  color: black;
+}
+
+.order-main-left-payment-button-right:hover::before,
+.order-main-left-payment-button-right:hover::after {
+  width: 100%;
+}
+
+.order-main-left-payment-button-right:hover .payment_button_span_right::before,
+.order-main-left-payment-button-right:hover .payment_button_span_right::after {
+  height: 100%;
+}
+
+.order-main-left-payment-button-right::after {
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.7s;
+}
+
+.order-main-left-payment-button-right .payment_button_span_right::after {
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.7s;
+}
+
+.order-main-left-payment-button-right::before {
+  left: 0;
+  top: 0;
+  transition-duration: 0.7s;
+}
+
+.order-main-left-payment-button-right .payment_button_span_right::before {
+  left: 0;
+  top: 0;
+  transition-duration: 0.7s;
+}
+
+/* tiêu đề list sản phẩm */
+.cart-main-left-list-title {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+/* khối div bên phải */
+.order-main-right {
+  width: 30%;
+  height: 300px;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 15px;
+  margin-left: 3%;
+  background-color: white;
+}
+
+.order-main-left-list {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.order-main-left-list-card {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  border-top: 1px solid rgb(121, 121, 121);
+}
+
+.order_main_card_imgtitle {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.order-main-left-list-card-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 15px;
+}
+
+.order-main-left-list-card-content-name {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.oder-main-left-list-card-function-button-num {
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.order_main_card_tt {
+  font-weight: bold;
+}
